@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: aks-helloworld-two
+  name: aks-helloworld-two   #ingress-app2
 spec:
   replicas: 1
   selector:
